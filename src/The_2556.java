@@ -16,7 +16,7 @@ import java.util.Stack;
  * 因此可以写一个方法
  * 	solve(n, a, b, c) 表示将n个盘子从a移动到c，b做辅助柱子
  */
-public class The_2506 {
+public class The_2556 {
 	// 因为盘子从上到下 是按从小到大排列，每次取出最上面的盘子，这可以当成一个栈，所以使用栈来当柱子
 	private static Stack<Integer> stack1 = new Stack<Integer>(); // 柱子a
 	private static Stack<Integer> stack2 = new Stack<Integer>(); // 柱子b
